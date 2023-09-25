@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* .wrap {
+    background: #151515;
+} */
+
+body {
+    font-family: jost;
+    color: #ffff;
+    background: #151515;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --- Hero section start --- */
+.Hero {
+    margin-bottom: 100px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EDEDED;
+    text-align: center;
+}
+
+.text-overlay h1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.Highlight {
+    color: #F7DB88;
+}
+
+.text-overlay p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+/* --- Hero section end --- */
+
+
+/* --- Featured Work section start --- */
+
+.Featured-heading {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.Featured-images img {
+    max-width: 95%;
+    width: 750px;
+    /* height: 380px; */
+}
+
+/* .Art-content {
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    color: #EDEDED;
+    text-align: center;
+} */
+
+/* .Art-Gallery-section {
+    margin: 140px 0px;
+} */
+
+/* .Art-content h1 {
+    letter-spacing: 1px;
+} */
+
+/* .Art-content p {
+    text-align: start;
+    font-size: 18px;
+    font-weight: 200;
+    left: 0%;
+    position: absolute;
+} */
+
+/* .View-more-btn {
+    position: absolute;
+    top: 230%;
+    align-items: start;
+    display: flex;
+    border-radius: 50px;
+} */
+
+.view-more {
+    padding: 10px 40px;
+
+}
+
+.Featured-content {
+    position: relative;
+    left: 32%;
+    z-index: 9;
+    letter-spacing: 1px;
+}
+
+.Featured-content h3 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.Featured-content p {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 0px 75px 0px 0px;
+}
+
+
+.space {
+    margin: 200px 0px;
+}
+
+.work-link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: none;
+}
+
+.bold-text {
+    color: #F7DB88;
+}
+
+/* --- Featured Work section end --- */
+
+
+
+/* --- Skill section start --- */
+
+.skills-icons {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-Feature img {
+    padding: 10px 10px;
+}
+
+
+
+
+
+/* --- Skill section end --- */
+
+
+/* --- Testimonial section start--- */
+
+.Testimonial-section {
+    margin: 50px 0px;
+}
+
+.Test-heading {
+    cursor: grab;
+}
+
+.owl-carousel .owl-item img {
+    display: initial;
+    max-width: 10%;
+}
+
+.text {
+    font-weight: 300;
+    padding: 0px 100px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+/* --- Testimonial section End--- */
+
+
+/* --- Footer section start--- */
+
+.Footer-section {
+    background-color: #F4F4F4;
+    margin: 232px 0px 40px 0px;
+}
+
+.Footer img {
+    transform: translate(0%, -12%);
+}
+
+.Footer-content {
+    color: black;
+    padding: 18px;
+}
+
+.social {
+    display: inline-block;
+}
+
+.social-icons {
+    max-width: 4%;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+/* --- Footer section end --- */
+
+
+
+
+/* --------------------------------------- Feature work page start --------------------------------------- */
+
+
+.project-section {
+    margin: 150px 0px;
+}
+
+.project-item h2 {
+    font-weight: 400;
+    text-align: center;
+    padding: 6vh 0px;
+    font-style: italic;
+    font-size: 4vh;
+}
+
+
+/* --------------------------------------- Feature work page end --------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------- Start --------------------------------------- */
+
+.main-section {
+    margin: 163px 0px;
+}
+
+.spacing {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .Art-container {
+    margin: 150px;
+} */
+
+.Featured-container img {
+    transform: rotate(7deg);
+    border-radius: 20px;
+}
+
+.Art-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EDEDED;
+    text-align: center;
+}
+
+.Art-text-overlay h2 {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+h5.works-detail-headline {
+    font-size: 30px;
+    font-weight: 300;
+    background-color: #151515;
+}
+
+.heading-line:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    /* top: 14%; */
+    left: 25%;
+    width: 70%;
+    height: 1px;
+    background-color: #2e2e2e;
+}
+
+.leading-loose {
+    line-height: 2;
+    font-style: italic;
+    font-weight: 200;
+}

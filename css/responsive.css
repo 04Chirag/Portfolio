@@ -1,0 +1,123 @@
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 575px) {
+
+    /* CSS styles for extra small devices go here */
+    .image-container img {
+        height: auto;
+    }
+
+    .text-overlay {
+        /* top: 30%; */
+        /* left: 50%; */
+        /* transform: translate(-50%, -50%); */
+        /* color: #EDEDED; */
+        padding: 0px 20px;
+        text-align: center;
+        width: 95%;
+    }
+
+    .text-overlay h1 {
+        font-size: 25px;
+    }
+
+    .text-overlay p {
+        font-size: 20px;
+    }
+
+    .Featured-content {
+        left: 0%;
+        text-align: center;
+    }
+
+    .Featured-images img {
+        max-width: 100%;
+    }
+
+    .text {
+        font-weight: 200;
+        padding: 0px 0px;
+        ;
+    }
+
+    .space {
+        margin: 150px 0px;
+    }
+
+    .Featured-content {
+        margin: 30px 0px;
+    }
+
+    .social-icons {
+        max-width: 9%;
+    }
+
+    .Featured-content h3 {
+        font-size: 30px;
+    }
+
+    .Featured-content p {
+        font-size: 17px;
+        padding: 0px;
+    }
+
+
+
+
+    .project-section {
+        margin: 50px 0px;
+    }
+
+    .project-item h2 {
+        font-weight: 300;
+        padding: 4vh 0px;
+        font-size: 3vh;
+    }
+
+    .Featured-container img {
+        width: 85%;
+        transform: rotate(0deg);
+        border-radius: 10px;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media (max-width:960px) {
+
+
+    .Featured-content {
+        left: 0%;
+    }
+
+    .Featured-content h3 {
+        font-size: 28px;
+    }
+
+    .Featured-content p {
+        font-size: 16px;
+        padding: 0px 20px 0px 0px;
+    } 
+}
+
+
+
+
+
+/* Small Devices (larger phones and small tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* CSS styles for small devices go here */
+}
+
+/* Medium Devices (tablets and small laptops) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles for medium devices go here */
+}
+
+/* Large Devices (laptops and desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS styles for large devices go here */
+}
+
+/* Extra Large Devices (large desktops and beyond) */
+@media only screen and (min-width: 1200px) {
+    /* CSS styles for extra large devices go here */
+}

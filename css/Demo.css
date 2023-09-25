@@ -1,0 +1,120 @@
+/*---- FONT ----*/
+:root {
+    --font-default: "Eina01";
+    --font-primary: "Eina01";
+}
+
+/*---- COLORS ----*/
+:root {
+    --color-default: #ffffff;
+    --color-primary: rgba(247, 209, 163, 0.55);
+    --color-secondary: #BABFA1;
+    --color-tutory: #9FA28F;
+
+}
+
+body {
+    font-family: var(--color-default);
+    color: var(--color-default);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: var(--font-default);
+    font-size: 35px;
+    font-weight: 500;
+} */
+
+
+
+/*---- HERO SECTION ----*/
+.Hero {
+    margin-top: 70px;
+}
+
+.Hero-bg {
+    background-color: var(--color-tutory);
+    border-radius: 20px;
+}
+
+
+/*---- SOFAS AND STOOLS SECTIONS ----*/
+
+#section-2 {
+    padding: 80px 0px;
+}
+
+.category-1 {
+    margin: 70px 0px;
+
+}
+
+.category-bg {
+    background-color: var(--color-tutory);
+    border-radius: 20px;
+    height: 310px;
+}
+
+.Category-header-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Category-2-header-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*---- END SOFAS AND STOOLS SECTIONS ----*/
+
+
+/*----START TOP OF THE WEEK SECTION ----*/
+
+section {
+    /* overflow: hidden; */
+    padding: 80px 0;
+}
+
+.Top-section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Top-section-header h2 {
+    font: var(--font-default);
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.Top-section-header p {
+    font: var(--font-default);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.top-content h3 {
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+/*---- END OF TOP OF THE WEEK SECTION ----*/
