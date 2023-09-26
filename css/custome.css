@@ -133,6 +133,9 @@ a:hover {
 
 .bold-text {
     color: #F7DB88;
+    border-bottom: 2px solid #f7db88;
+    padding: 0px 0px 10px 0px;
+    
 }
 
 /* --- Featured Work section end --- */
