@@ -138,6 +138,14 @@ a:hover {
     
 }
 
+.bold-text:hover {
+    color: #F7DB88;
+    border-radius: 40px;
+    border: 1px solid;
+    padding: 10px 20px;
+}
+
+
 /* --- Featured Work section end --- */
 
 
